@@ -1,0 +1,14 @@
+com/projectrental/MainActivity.java
+ com.projectrental.MainActivity
+com/projectrental/BuildConfig.java
+ com.projectrental.BuildConfig
+com/projectrental/ReactNativeFlipper.java
+ com.projectrental.ReactNativeFlipper
+ com.projectrental.ReactNativeFlipper$1
+ com.projectrental.ReactNativeFlipper$2
+ com.projectrental.ReactNativeFlipper$2$1
+com/projectrental/MainApplication.java
+ com.projectrental.MainApplication
+ com.projectrental.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
