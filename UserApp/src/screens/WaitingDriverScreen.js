@@ -19,7 +19,9 @@ const WaitingDriverScreen = props => {
         <RoundButtonIcon text={'phone'} color={'white'} />
         <RoundButtonIcon text={'envelope'} color={'white'} />
       </View>
-      
+      <View style={styles.mapContainer}>
+        <Text>Here is the map</Text>
+      </View>
     </SafeAreaView>
   );
 };
@@ -58,6 +60,14 @@ const styles = StyleSheet.create({
     width: '100%',
     flexDirection: 'row',
     justifyContent: 'space-around',
+  },
+  mapContainer: {
+    width: '100%',
+    height: '55%',
+    backgroundColor: 'white',
+    marginTop: RFValue(15),
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
 

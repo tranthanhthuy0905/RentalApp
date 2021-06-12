@@ -10,7 +10,7 @@ import {
 import {RFValue} from 'react-native-responsive-fontsize';
 
 import RoundButtonIcon from '../components/RoundButtonIcon';
-import ButtonBottom from '../components/ButtonBottom';
+import BottomNavigationTab from '../components/bottomNavigationTab';
 
 const HomeScreen = props => {
   return (
@@ -28,25 +28,18 @@ const HomeScreen = props => {
 
       <View style={styles.functionsContainer}>
         <View style={styles.row}>
-          <RoundButtonIcon text={'transit'} />
-          <RoundButtonIcon text={'rental'} />
-          <RoundButtonIcon text={'shipping'} />
+          <RoundButtonIcon text={'motorcycle'} color={'white'} />
+          <RoundButtonIcon text={'key'} color={'white'} />
+          <RoundButtonIcon text={'shipping-fast'} color={'white'} />
         </View>
 
         <View style={styles.row}>
-          <RoundButtonIcon text={'gym'} />
-          <RoundButtonIcon text={'flower'} />
-          <RoundButtonIcon text={'food'} />
+          <RoundButtonIcon text={'dumbbell'} color={'white'} />
+          <RoundButtonIcon text={'flower'} color={'white'} />
+          <RoundButtonIcon text={'utensils'} color={'white'} />
         </View>
       </View>
-
-      <View style={styles.bottomView}>
-        <ButtonBottom btnName="user-friends" />
-        <ButtonBottom btnName="wallet" />
-        <ButtonBottom btnName="home" />
-        <ButtonBottom btnName="history" />
-        <ButtonBottom btnName="percentage" />
-      </View>
+      <BottomNavigationTab />
     </SafeAreaView>
   );
 };
@@ -86,16 +79,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     marginVertical: RFValue(25),
-  },
-
-  bottomView: {
-    flex: 1.5,
-    backgroundColor: 'white',
-    flexDirection: 'row',
-    borderTopLeftRadius: RFValue(50),
-    borderTopRightRadius: RFValue(50),
-    justifyContent: 'center',
-    alignItems: 'center',
   },
 });
 

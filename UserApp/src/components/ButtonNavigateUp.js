@@ -19,7 +19,6 @@ const styles = StyleSheet.create({
   returnButton: {
     fontSize: RFValue(20),
     marginLeft: RFValue(10),
-    marginTop: RFValue(10),
   },
 });
 

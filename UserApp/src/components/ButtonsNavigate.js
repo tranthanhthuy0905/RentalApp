@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: RFValue(15),
-    marginBottom: RFValue(15),
+    marginVertical: RFValue(15),
     padding: RFValue(10),
     color: 'black',
   },
